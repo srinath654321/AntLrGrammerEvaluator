@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26e47979-2192-46c6-93a7-1df2828772f4" name="Default Changelist" comment="" />
+    <list default="true" id="26e47979-2192-46c6-93a7-1df2828772f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FunVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/AppExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AppExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/AssnExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AssnExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BinExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/BinExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/EnvImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/EnvImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/LetFunExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LetFunExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/LetValExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LetValExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/NotExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/NotExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/VarExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/VarExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/WhileExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/WhileExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/AssnExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/AssnExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/EnvImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/EnvImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/LetValExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/LetValExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ProjLangParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/SeqExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/SeqExp.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -34,7 +56,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/model" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="C:/ARI_DIH/ari-pnr-cache-transform" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -115,70 +138,74 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="780" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1586036969883" />
-    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1587019551666">
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1587078391647">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1587019551666" />
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1587078391647" />
+    <state x="722" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587077957952">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="722" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587077957952" />
     <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587004203170">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587004203170" />
-    <state x="890" y="426" key="#xdebugger.evaluate" timestamp="1587011835204">
+    <state x="890" y="426" key="#xdebugger.evaluate" timestamp="1587071079504">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="890" y="426" key="#xdebugger.evaluate/0.0.2048.1112@0.0.2048.1112" timestamp="1587011835204" />
+    <state x="890" y="426" key="#xdebugger.evaluate/0.0.2048.1112@0.0.2048.1112" timestamp="1587071079504" />
     <state width="509" height="466" key="DebuggerActiveHint" timestamp="1587011775289">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="509" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1587011775289" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1586038814898">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1587062447794">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1586038814898" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1587015591933">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1587062447794" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1587079860113">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587015591933" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1587015591933">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587079860113" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1587079860113">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587015591933" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1587015591933">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587079860113" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1587079860112">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587015591933" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1587015591933">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587079860112" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1587079860113">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587015591933" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1587014157598">
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587079860113" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1587078257323">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587014157598" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1587014157598">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587078257323" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1587078257323">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587014157598" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1587014157598">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587078257323" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1587078257322">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587014157598" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1587014157598">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587078257322" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1587078257323">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587014157598" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587078257323" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1587003144920">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587003144920" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586035369530">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587062418208">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586035369530" />
-    <state x="767" y="175" key="refactoring.ChangeSignatureDialog" timestamp="1587018565482">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587062418208" />
+    <state x="767" y="175" key="refactoring.ChangeSignatureDialog" timestamp="1587072837257">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="767" y="175" key="refactoring.ChangeSignatureDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587018565482" />
+    <state x="767" y="175" key="refactoring.ChangeSignatureDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587072837257" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -187,6 +214,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/model/ProjLangParser.java</url>
           <line>437</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/BinExp.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/BinExp.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/LetValExp.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/LetFunExp.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

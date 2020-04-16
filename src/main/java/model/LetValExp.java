@@ -1,15 +1,23 @@
 package model;
 
 public class LetValExp extends Expr {
-    public LetValExp(String s, Expr d, Expr e) {
-        super();
+
+    private final String s;
+    private final Expr expr1;
+    private final Expr expr2;
+
+    public LetValExp(String s, Expr expr1, Expr expr2) {
+        this.s = s;
+        this.expr1 = expr1;
+        this.expr2 = expr2;
     }
 
     public Value eval(Env e) throws EvalError {
-        return null;
+        return expr2.eval(e.addBinding(s, expr1.eval(e)));
     }
 
+    // let val a= 2 in a+4
     public String toString() {
-        return null;
+        return "let val"+ s + ":=" + expr1.toString() + "in" + expr2.toString() + "end";
     }
 }

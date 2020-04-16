@@ -2,11 +2,10 @@ package model;
 
 public class AssnExp extends Expr {
 
-    private final Expr value;
+    private final Expr expr;
 
-    public AssnExp(Expr value) {
-        super();
-        this.value = value;
+    public AssnExp(Expr expr) {
+        this.expr = expr;
     }
 
     public Value eval(Env e) throws EvalError {

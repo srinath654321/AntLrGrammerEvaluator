@@ -14,8 +14,9 @@ public class BinExp extends Expr {
 
     public Value eval(Env e) throws EvalError {
 
-        // value1 and value2 should of integer values
-        if (value1 instanceof IntConst && value2 instanceof  IntConst) {
+        if ((value1 instanceof IntConst && value2 instanceof  IntConst) ||
+                (value1 instanceof BinExp || value2 instanceof BinExp) ||
+                (value1 instanceof VarExp || value2 instanceof VarExp)) {
             int num1 = ((IntVal)value1.eval(e)).value;
             int num2 = ((IntVal)value2.eval(e)).value;
             return binOp.evaluateIntegerExpression(num1, num2);

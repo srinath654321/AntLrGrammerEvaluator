@@ -1,15 +1,20 @@
 package model;
 
 public class VarExp extends Expr {
-    public VarExp(String s) {
-        super();
+    private final String var;
+
+    public VarExp(String var) {
+        this.var = var;
     }
 
+    @Override
     public Value eval(Env e) throws EvalError {
-        return null;
+        return e.lookup(var);
     }
 
+    @Override
     public String toString() {
-        return null;
+        return var;
     }
+
 }
