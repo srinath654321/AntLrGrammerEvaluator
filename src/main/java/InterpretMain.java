@@ -1,5 +1,4 @@
-package model;
-
+import model.*;
 import org.antlr.runtime.ANTLRStringStream;
 import org.antlr.runtime.CharStream;
 import org.antlr.runtime.CommonTokenStream;
