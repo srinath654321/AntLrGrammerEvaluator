@@ -2,46 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e47979-2192-46c6-93a7-1df2828772f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/AppExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/AssnExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BinOp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BoolConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BoolVal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Env.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/EnvImp$EnvCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/EnvImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/EvalError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Expr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FunVal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/IfExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/IntConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/IntVal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/LetFunExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/LetValExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/NotExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ProjLangLexer$DFA4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ProjLangLexer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SeqExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UnboundVar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Value.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/VarExp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/WhileExp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/InterpretMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterpretMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterpretMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterpretMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/AppExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/AssnExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AssnExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BinExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BinOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BoolConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoolConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BoolVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoolVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Env.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Env.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/EnvImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EnvImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/EvalError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EvalError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/FunVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/IfExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IfExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/IntConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IntConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/IntVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IntVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/LetFunExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LetFunExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/LetValExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LetValExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/NotExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NotExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ProjLang.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjLang.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ProjLangLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjLangLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ProjLangParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjLangParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/SeqExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeqExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/UnboundVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnboundVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/VarExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VarExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/WhileExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WhileExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GrammerEvaluator-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/GrammerEvaluator-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/GrammerEvaluator-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/GrammerEvaluator-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GrammerEvaluator.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/AppExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/AppExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/AssnExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/AssnExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BoolConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BoolConst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BoolVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BoolVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Env.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Env.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/EnvImp$EnvCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/EnvImp$EnvCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/EnvImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/EnvImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/EvalError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/EvalError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Expr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/FunVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/FunVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/IfExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/IfExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/IntConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/IntConst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/IntVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/IntVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/InterpretMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/LetFunExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/LetFunExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/LetValExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/LetValExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/NotExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/NotExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangLexer$DFA4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ProjLangLexer$DFA4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ProjLangLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ProjLangParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/SeqExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/SeqExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/UnboundVar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/UnboundVar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/VarExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/VarExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/WhileExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/WhileExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InterpretMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterpretMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/AppExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/AssnExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BoolConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/BoolVal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Env.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/EnvImp$EnvCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/EnvImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/EvalError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/FunVal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/IfExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/IntConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/IntVal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/LetFunExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/LetValExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/NotExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangLexer$DFA4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ProjLangParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProjLangParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/SeqExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/UnboundVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/VarExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/WhileExp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -50,6 +108,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -73,6 +134,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1a5nmWLPq9bmLjZzxFYaBBGZTHI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,22 +146,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/ARI_DIH/ari-pnr-cache-transform" />
+    <property name="last_opened_file_path" value="C:/explore_spring/loginService" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\libs\GrammerEvaluator\src\main\java\model" />
-      <recent name="C:\libs\GrammerEvaluator\src\main\antlr4" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\libs\GrammerEvaluator\src\main\java" />
+      <recent name="C:\libs\GrammerEvaluator\src\main\java\model" />
+      <recent name="C:\libs\GrammerEvaluator\src\main\antlr4" />
     </key>
   </component>
   <component name="RunManager" selected="Application.InterpretMain">
@@ -194,26 +259,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="509" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1587011775289" />
-    <state x="927" y="279" key="FileChooserDialogImpl" timestamp="1587083926306">
+    <state x="927" y="279" key="FileChooserDialogImpl" timestamp="1587511069757">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="927" y="279" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1587083926306" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1587083892162">
+    <state x="927" y="279" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1587511069757" />
+    <state width="2005" height="289" key="GridCell.Tab.0.bottom" timestamp="1587927372465">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587083892162" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1587083892162">
+    <state width="2005" height="289" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1587927372465" />
+    <state width="2005" height="289" key="GridCell.Tab.0.center" timestamp="1587927372465">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587083892162" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1587083892162">
+    <state width="2005" height="289" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1587927372465" />
+    <state width="2005" height="289" key="GridCell.Tab.0.left" timestamp="1587927372464">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587083892162" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1587083892162">
+    <state width="2005" height="289" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1587927372464" />
+    <state width="2005" height="289" key="GridCell.Tab.0.right" timestamp="1587927372465">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587083892162" />
+    <state width="2005" height="289" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1587927372465" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1587078257323">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -234,14 +299,18 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587003144920" />
-    <state x="533" y="198" key="SettingsEditor" timestamp="1587083927545">
+    <state x="815" y="267" key="RollbackChangesDialog" timestamp="1587926503909">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="533" y="198" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1587083927545" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587062418208">
+    <state x="815" y="267" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587926503909" />
+    <state x="533" y="198" key="SettingsEditor" timestamp="1587446960449">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587062418208" />
+    <state x="533" y="198" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1587446960449" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587444754904">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587444754904" />
     <state x="719" y="288" width="609" height="536" key="find.popup" timestamp="1587084372669">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
